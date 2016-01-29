@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+
+.qwert{
+	clear: both;
+}
+
+body{
+	background: url('img/background-main.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+
+}
+/*Кирилл*/
+.wrap{
+	width: 960px;
+	background: black;
+	margin: 200px auto 0;
+	padding: 10px;
+
+}
+
+div.main{
+	width: 940px;
+	height: 400px;
+	margin: 0 auto;
+	background: yellow;
+
+}
+
+.menu1{
+	/*background: red;*/
+	width: 550px;
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+.menu1 li{
+	/*background: white;*/
+	/*width: 200px;
+	height: 30px;*/
+	float: left;
+
+}
+
+.menu1 a{
+	display: block;
+	line-height: 40px;
+	padding: 0 20px;
+	background: #6091F2;
+	margin: 10px 20px;
+	text-decoration: none;
+	color: #0a3193;
+}
+
+
+
+.info{
+	background: yellow;
+
+}
+
+.info1{
+	background: #5fe3ef; 
+	color: #0a3193;
+	float: left;
+	width: 70%;
+	padding: 30px;
+}
+
+.list{
+	background: yellow; 
+	float: right;
+	width: 30%;
+	color: blue;
+	text-align: center;
+	list-style: none;
+}
+
+.suitbar{
+	clear: both;
+}
+
+/*Антон*/
+div.footer{
+		margin-top: 20px;
+		background-color: yellow;
+	}
+
+	.findUs{
+		float: left;
+		width: 30%;
+		background:red;
+	}
+.menu2{
+	float: right;
+	background:green;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+ .menu2 li{
+ 	float: left;
+ }
+
+ .menu2 a{
+ 	display: block;
+ 	line-height: 30px;
+ 	padding: 0 20px;
+ 	background: orange;
+ 	margin: 5px;
+ }
+
+.creators{
+	clear: both;
+	background:blue;
+	text-align: center;
+}
