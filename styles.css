@@ -91,14 +91,36 @@ div.footer{
 		background-color: yellow;
 	}
 
-	.findUs{
+.findUs{
 		float: left;
 		width: 30%;
 		background:red;
 	}
+div.findUs a{
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url("img/sprite.png") no-repeat -51px 1.998px;
+	float: left;
+	margin: 15px;
+}
+div.findUs a:hover{
+	opacity: 0.5;
+}
+
+div.findUs .twit{
+background-position: -51px -41px;
+}
+div.findUs .vk{
+	background-position: -8px -41px;
+}
+div.findUs h2{
+	text-align: center;
+}
+
 .menu2{
 	float: right;
-	background:green;
+	background:black;
 	width: 70%;
 	margin: 0;
 	padding: 0;
@@ -108,12 +130,16 @@ div.footer{
  .menu2 li{
  	float: left;
  }
+ .menu2 li a{
+ 	text-decoration: none;
+ 	color: white;
+ }
 
  .menu2 a{
  	display: block;
  	line-height: 30px;
  	padding: 0 20px;
- 	background: orange;
+ 	background: #0a3193;
  	margin: 5px;
  }
 
