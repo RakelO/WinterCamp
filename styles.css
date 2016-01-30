@@ -91,11 +91,37 @@ div.footer{
 		background-color: yellow;
 	}
 
-	.findUs{
-		float: left;
-		width: 30%;
-		background:red;
-	}
+.findUs{
+	float: left;
+	width: 30%;
+	background:red;
+}
+
+.findUs a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	background: url("img/sprite.png") no-repeat -92px 2px;
+	float: left;
+	margin: 15px; 
+}
+
+.findUs a:hover{
+	opacity: 0.5;
+}
+
+.findUs a:active{
+	opacity: 0.1;
+}
+
+.findUs .twit{
+	background-position: -50px -40px;
+}
+
+.findUs .vk{
+	background-position: -8px 2px;
+}
+
 .menu2{
 	float: right;
 	background:green;
