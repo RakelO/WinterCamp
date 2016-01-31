@@ -57,8 +57,6 @@ div.main{
 	color: #0a3193;
 }
 
-
-
 .info{
 	background: yellow;
 
@@ -97,6 +95,10 @@ div.footer{
 	background:red;
 }
 
+div.findUs h2{
+	text-align: center;
+}
+
 .findUs a{
 	display: block;
 	width: 36px;
@@ -124,7 +126,7 @@ div.footer{
 
 .menu2{
 	float: right;
-	background:green;
+	background:black;
 	width: 70%;
 	margin: 0;
 	padding: 0;
@@ -139,8 +141,10 @@ div.footer{
  	display: block;
  	line-height: 30px;
  	padding: 0 20px;
- 	background: orange;
+ 	background: #0a3193;
  	margin: 5px;
+ 	text-decoration: none;
+ 	color: white;
  }
 
 .creators{
